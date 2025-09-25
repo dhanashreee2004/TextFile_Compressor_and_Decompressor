@@ -79,7 +79,7 @@ public class HuffmanCompressor {
     private static void buildCodeMap(Node node, String s, Map<Integer, String> map) {
     if (node == null) return; // safety check
     if (node.isLeaf()) {
-        map.put(node.data, s.length() > 0 ? s : "0"); // guarantee a code
+        map.put(node.data, s.length() > 0 ? s : "0"); 
         return;
     }
     buildCodeMap(node.left, s + "0", map);
@@ -176,7 +176,7 @@ private static void compressBlock(byte[] data, DataOutputStream out) throws IOEx
             int read;
             while ((read = fis.read(buffer)) > 0) {
                byte[] block = Arrays.copyOf(buffer, read);
-               if (block.length == 0) continue; // <<< prevents empty block crash
+               if (block.length == 0) continue; //  prevents empty block crash
 
                if (level.equalsIgnoreCase("low")) compressBlock(block, out);
                else if (level.equalsIgnoreCase("medium")) {
