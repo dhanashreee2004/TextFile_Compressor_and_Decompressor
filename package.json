@@ -1,16 +1,17 @@
 {
   "name": "mywebapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Text File Compressor and Decompressor Web App",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dhanashree",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
     "multer": "^2.0.2"
   }
 }
+
