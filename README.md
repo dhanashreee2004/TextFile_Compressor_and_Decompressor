@@ -45,10 +45,6 @@ This project combines a **Node.js + Express backend** with **Java-implemented al
 └── README.md
 ```
 
----
-
-## Installation & Setup
-
 ### Prerequisites
 
 * [Node.js](https://nodejs.org/) (v14+)
@@ -81,7 +77,6 @@ This project combines a **Node.js + Express backend** with **Java-implemented al
 
 ---
 
-## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
 
