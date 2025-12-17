@@ -54,43 +54,6 @@ This project combines a **Node.js + Express backend** with **Java-implemented al
 * [Node.js](https://nodejs.org/) (v14+)
 * [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (v8+)
 
-### Steps
-
-1. **Clone the repo**
-
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Compile Java algorithms**
-
-   ```bash
-   cd algorithms
-   javac *.java
-   cd ..
-   ```
-
-4. **Run the server**
-
-   ```bash
-   node backend/server.js
-   ```
-
-5. Open the app in browser:
-
-   ```
-   http://localhost:3000
-   ```
-
----
-
 ## Usage
 
 1. Upload a text-based file through the web interface.
@@ -127,4 +90,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Author
 
 **Dhanashree**
+
 Full-stack developer passionate about building efficient and scalable solutions.
